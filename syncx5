@@ -1,4 +1,4 @@
-cp /Volumes/PRT3d/* .
+cp * /Volumes/PRT3d 
 git add *
 git commit -a -m %1
 
