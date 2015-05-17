@@ -148,7 +148,7 @@ z_axis_max_speed                             30000.0          # mm/min
 # Extruder module configuration
 # ---------------------------------------------------------------------
 extruder_module_enable                       true             # Whether to activate the extruder module at all. All configuration is ignored if false
-extruder_steps_per_mm                        191.472          # Steps per mm for extruder stepper - you should do a filament calibration to get this REALLY correct
+extruder_steps_per_mm                        982.000          # Steps per mm for extruder stepper - you should do a filament calibration to get this REALLY correct
 extruder_default_feed_rate                   600              # Default rate ( mm/minute ) for moves where only the extruder moves
 extruder_acceleration                        2000             # Acceleration in mm/sec^2 only used for retracts
 extruder_max_speed                           1000             # mm/sec NOTE only used for retracts
