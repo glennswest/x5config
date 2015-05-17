@@ -35,7 +35,7 @@ comprehensive-delta.probe_priming                         0                # if 
 comprehensive-delta.probe_acceleration                    35               # acceleration will be temporarily set to this during probing; original is restored later; 100 is a good value
 comprehensive-delta.probe_offset_x                        0                # distance between the probe and the nozzle
 comprehensive-delta.probe_offset_y                        0                #
-comprehensive-delta.probe_offset_z                        0               #
+comprehensive-delta.probe_offset_z                        -0.145            #
 
 
 # Optional Z probe, see http://smoothieware.org/zprobe
