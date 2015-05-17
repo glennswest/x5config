@@ -1,4 +1,4 @@
 cp -R * /Volumes/PRT3D
 git add *
-git commit --all -m$1
+git commit -m $1 --all 
 diskutil unmountDisk disk1
