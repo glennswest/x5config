@@ -17,8 +17,8 @@ gamma_max                                    131.564
 #              = 128.5
 # ---------------------------------------------------------------------
 arm_solution                                 linear_delta     # default linear_delta, you can also try kossel
-arm_radius                                   155.2218         # this is the horiontal distance from hinge to hinge when the effector is centered
-arm_length                                   353.8516         # length of the delta arms (hopefully they're all the same!)
+arm_radius                                   160.4251         # this is the horiontal distance from hinge to hinge when the effector is centered
+arm_length                                   353.8092         # length of the delta arms (hopefully they're all the same!)
 
 
 # If you have a Z probe, you can select a calibration strategy here
@@ -35,7 +35,7 @@ comprehensive-delta.probe_priming                         0                # if 
 comprehensive-delta.probe_acceleration                    35               # acceleration will be temporarily set to this during probing; original is restored later; 100 is a good value
 comprehensive-delta.probe_offset_x                        0                # distance between the probe and the nozzle
 comprehensive-delta.probe_offset_y                        0                #
-comprehensive-delta.probe_offset_z                         -2              #
+comprehensive-delta.probe_offset_z                         -1.6            #
 
 
 # Optional Z probe, see http://smoothieware.org/zprobe
@@ -110,9 +110,9 @@ beta_homing_retract_mm                       5                # "
 gamma_homing_retract_mm                      5                # "
 
 # These can be used instead of adjusting the endstop screws
-alpha_trim                                   0                # software trim for alpha stepper endstop (in mm) - moves down
-beta_trim                                    0                # software trim for beta stepper endstop
-gamma_trim                                   0                # software trim for gamma stepper endstop
+alpha_trim                                   -4.530           # software trim for alpha stepper endstop (in mm) - moves down
+beta_trim                                    -0.970           # software trim for beta stepper endstop
+gamma_trim                                    0.000           # software trim for gamma stepper endstop
 
 
 # Stepper module configuration
