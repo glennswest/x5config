@@ -17,8 +17,8 @@ gamma_max                                    355
 #              = 128.5
 # ---------------------------------------------------------------------
 arm_solution                                 linear_delta     # default linear_delta, you can also try kossel
-arm_radius                                   141.5            # this is the horiontal distance from hinge to hinge when the effector is centered
-arm_length                                   355.00           # length of the delta arms (hopefully they're all the same!)
+arm_radius                                   153.9593         # this is the horiontal distance from hinge to hinge when the effector is centered
+arm_length                                   353.7680         # length of the delta arms (hopefully they're all the same!)
 
 
 # If you have a Z probe, you can select a calibration strategy here
@@ -66,9 +66,9 @@ delta_segments_per_second                    250              # segments per sec
 # Arm solution configuration : Delta robot. Translates mm positions into stepper positions
 # This is for an old Rostock MAX with 15-teeth pullies. Use a belt/pulley calculator to find the values for your machine
 # ---------------------------------------------------------------------
-alpha_steps_per_mm                           213.3333         # Steps per mm for alpha stepper
-beta_steps_per_mm                            213.3333         # Steps per mm for beta stepper
-gamma_steps_per_mm                           213.3333         # Steps per mm for gamma stepper
+alpha_steps_per_mm                           200.0000         # Steps per mm for alpha stepper
+beta_steps_per_mm                            200.0000         # Steps per mm for beta stepper
+gamma_steps_per_mm                           200.0000         # Steps per mm for gamma stepper
 
 
 # Planner module configuration : Look-ahead and acceleration configuration
