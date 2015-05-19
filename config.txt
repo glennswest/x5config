@@ -94,6 +94,7 @@ beta_max                                     0                #
 gamma_max_endstop                            1.28^            #
 gamma_homing_direction                       home_to_max      #
 gamma_min                                    0                #
+endstop_debounce_count                       1
 # gamma_max moved to top of file, since it's one of the most frequenly adjusted settings
 
 
